@@ -11,7 +11,11 @@ public class App1 {
         if (a > c){
             a = b = c = 1;
 
-            System.out.println(b);
+            display(b);
         }
+    }
+    
+    public static void display(int n){
+        System.out.println(n);
     }
 }
